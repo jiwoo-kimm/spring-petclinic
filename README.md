@@ -1,6 +1,6 @@
 # Spring Boot를 활용한 동물병원 웹 어플리케이션
-* 소스 : https://github.com/SpringSource/spring-petclinic
-* 강의 : https://www.inflearn.com/course/spring_revised_edition/dashboard
+* 소스 : [Spring 공식 예제 中 spring-petclinic](https://github.com/SpringSource/spring-petclinic)
+* 강의 : [예제로 배우는 스프링 (개정판)](https://www.inflearn.com/course/spring_revised_edition/dashboard)
 
 
 ## Section 1 : PetClinic Setup (7/1)
@@ -26,12 +26,12 @@
 ### 과제 1
 
 1) FirstName 검색
-- view : FirstName 입력받기
-- controller : findByFirstName() 메소드 & sql문 추가
+   - view : FirstName 입력받기
+   - controller : findByFirstName() 메소드 & sql문 추가
 
 2) 검색어 포함 Name 검색
-- controller : sql문 조건 변경
+   - controller : sql문 조건 변경
 
 3) Owner에 Age 필드 추가
-- view : 입력받고 출력하는 필드 각각 추가
-- controller : Owner 스키마에 Age 추가 & sql INSERT문에 Age 필드 추가
+   - view : 입력받고 출력하는 필드 각각 추가
+   - controller : Owner 스키마에 Age 추가 & sql INSERT문에 Age 필드 추가
