@@ -22,6 +22,7 @@ spring.profiles.active=mysql
 #### : 클래스에서 사용할 객체를 그 안에서 직접 만드는 대신, 클래스 외부에서 받아 옴
 * `@Autowired`, `@Inject` annotation을 3가지 방법으로 붙여 의존성 주입 가능
 ##### 1) 생성자 : 단일 생성자 parameter에 객체를 받아 오도록 함
+###### Spring 4.3 이상 : annotation 생략해도 자동으로 의존성 주입
 ```java
 private final SampleRepository samples;
 
@@ -29,7 +30,6 @@ public SampleController(SampleRepository sampleRepository) {
   this.samples = sampleRepository;
 }
 ```
-###### Spring 4.3 이상 : annotation 생략해도 자동으로 의존성 주입
 ##### 2) 필드
 ```java
 @Autowired
