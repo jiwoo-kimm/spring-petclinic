@@ -45,12 +45,14 @@ public void setSamples(SampleRepository samples) {
 }
 ```
 
+
 ### Bean
 #### : IoC Container가 관리하는 객체
 ##### 1) Component Scanning<br>
  : `@Component`, `@Repository`, `@Controller`, `@Configuration`, `@Service` 등의 annotation이 붙은 모든 클래스의 객체가 Bean으로 등록됨
 ##### 2) Java Configuration<br>
  : `@Configuration`이 붙은 클래스 내 메소드에 `@Bean`을 붙이면 리턴 객체가 Bean으로 등록됨
+
 
 ### IoC Container
 #### : Bean을 만들고 관리함
