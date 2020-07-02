@@ -19,7 +19,7 @@
 1) 저장소를 zip으로 다운 OR `git clone https://github.com/SpringSource/spring-petclinic.git`
 2) 해당 폴더를 workspace로 Eclipse 실행
 3) workspace에서 Git Bash Shell 열고 `./mvnw generate-sources` 입력하여 Maven Build
-    - `Formatting violations found in the following files` 에러 발생 시 Git Bash Shell에 `./mvnw spring-javaformat:apply` 입력
+    - `Formatting violations found in the following files` 에러 -> Git Bash Shell에 `./mvnw spring-javaformat:apply` 입력
 4) Run Configuration on `PetClinicApplication.java`
 5) 웹 브라우저 상에서 [http://localhost:8080] 접속
 
