@@ -13,6 +13,7 @@
 * Eclipse with m2e plugin
   * `Help -> Check for Updates` 에 m2e plugin이 있다면 설치 된 것
   * 없다면 `Help -> Install New Software` 에서 `m2e plugin - http://download.eclipse.org/technology/m2e/releases` 설치
+* MySQL 8.0
 
 ### 실행방법
 
@@ -35,3 +36,7 @@
 3) Owner에 Age 필드 추가
    - view : 입력받고 출력하는 필드 각각 추가
    - controller : Owner 스키마에 Age 추가 & sql INSERT문에 Age 필드 추가
+   
+### MySQL 연동
+
+1) 
