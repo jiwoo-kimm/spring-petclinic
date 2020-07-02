@@ -65,6 +65,7 @@ public class Owner extends Person {
 	@Column(name = "age")
 	private Integer age;
 
+
 	public Integer getAge() {
 		return age;
 	}
