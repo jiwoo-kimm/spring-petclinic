@@ -6,6 +6,7 @@
 ## Section 1 : PetClinic Setup (7/1)
 
 ### 개발환경
+
 * Windows 10
 * jdk 13.0.2
 * Git
@@ -21,3 +22,16 @@
     - `Formatting violations found in the following files` 에러 발생 시 Git Bash Shell에 `./mvnw spring-javaformat:apply` 입력
 4) Run Configuration on `PetClinicApplication.java`
 5) 웹 브라우저 상에서 [http://localhost:8080] 접속
+
+### 과제 1
+
+1) FirstName 검색
+- view : FirstName 입력받기
+- controller : findByFirstName() 메소드 & sql문 추가
+
+2) 검색어 포함 Name 검색
+- controller : sql문 조건 변경
+
+3) Owner에 Age 필드 추가
+- view : 입력받고 출력하는 필드 각각 추가
+- controller : Owner 스키마에 Age 추가 & sql INSERT문에 Age 필드 추가
