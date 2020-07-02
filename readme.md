@@ -1,4 +1,4 @@
-# Spring Boot를 활용한 동물병원 웹 어플리케이션 스터디
+# Spring Boot를 활용한 동물병원 웹 어플리케이션
 * 소스 : https://github.com/SpringSource/spring-petclinic
 * 강의 : https://www.inflearn.com/course/spring_revised_edition/dashboard
 
