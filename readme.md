@@ -12,7 +12,7 @@
 * Eclipse with m2e plugin
   * `Help -> Check for Updates` 에 m2e plugin이 있다면 설치 된 것
   * 없다면 `Help -> Install New Software` 에서 `m2e plugin - http://download.eclipse.org/technology/m2e/releases` 설치
-<br>
+
 ### 실행방법
 
 1) 저장소를 zip으로 다운 OR `git clone https://github.com/SpringSource/spring-petclinic.git`
