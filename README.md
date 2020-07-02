@@ -19,4 +19,4 @@
 3) workspace에서 Git Bash Shell 열고 `./mvnw generate-sources` 입력하여 Maven Build
     - `Formatting violations found in the following files` 에러 -> Git Bash Shell에 `./mvnw spring-javaformat:apply`
 4) Run Configuration on `PetClinicApplication.java`
-5) 웹 브라우저 상에서 [http://localhost:8080] 접속
+5) 웹 브라우저에서 [호스트링크](http://localhost:8080) 접속
